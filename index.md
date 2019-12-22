@@ -40,11 +40,11 @@ Gloomhaven Shop is available on Google Play.
 
 ## Usage
 
-On the main screen, all available items of the current party are displayed. To change the number of columns of item cards, tap the magnifying glass symbols on the top right.
+On the main screen, all available items of the current party are displayed. To change the number of columns, tap the magnifying glass symbols on the top right.
 
 ![image-center](/assets/images/main_screen1.jpg){: .align-center width="400px"}
 
-Each item card is displayed alongside its item number, and circles indicating the number of copies - unfilled if available, containing a class icon if purchased. Dots indicate that fewer than the maximum number of the item are unlocked, for instance because a limited number were found in a chest.
+Each item card is displayed along with its item number and circles indicating the number of copies of the item - unfilled if available, containing a class icon if purchased. Dots indicate that fewer than the maximum number of the item are unlocked, for instance because a limited number were found in a chest.
 
 
 
@@ -60,7 +60,7 @@ To add or remove an owner, tap the item card, and then the class icon correspond
 
 ### Adding items
 
-You can set the prosperity from the drawer menu, which will add the appropriate items. You can also add or remove individual items. When adding or removing individual items, either tap the numbers in the list, or enter them and press the "Select" button (or enter on your keyboard).
+Gloomhaven's prosperity can be set from the drawer menu, which will add the appropriate items. Items not already unlocked through prosperity can also be added or removed individually. This is done by opening the appropriate dialog from the drawer menu, and either tapping the numbers in the list, or entering them and pressing the "Select" button (or Enter on your keyboard).
 
 <!--
 <figure class="half">
@@ -71,24 +71,24 @@ You can set the prosperity from the drawer menu, which will add the appropriate 
 
 ![image-center](assets/images/items_together.png){: .align-center width="600px"}
 
-If you receive a limited number of items (for instance from a chest) that you have yet to unlock through prosperity or an item design, you can adjust the total number of available items of that kind after it's been added by tapping the item card, and then the arrow symbols. If the item is later unlocked by prosperity, the number will automatically be changed to the normal maximum amount.
+If you receive a limited number of items (for instance from a chest) that you have yet to unlock through prosperity or an item design, the total number of available items of that kind can be adjusted after it's been added by tapping the item card, and then the arrow symbols. If the item is later unlocked through a prosperity increase, the number will automatically be changed to the normal maximum amount.
 
 ![image-center](/assets/images/stock_arrows.jpg){: .align-center width="350px"}
 
-Note that removing items, either through decreasing prosperity or by using "Remove items", can remove ownership information about those items from any party belonging to the current campaign. Removing items is really just implemented so that you can remove things you added by mistake.
+Note that removing items, either through decreasing prosperity or by using "Remove items", can remove ownership information about those items from any party belonging to the current campaign. Removing items is really just implemented so that items added by mistake can be removed.
 
 
 
 ### Filters
 
 <!--![image-right](/assets/images/filter_active.jpg){: .align-right width="300px"}-->
-If you want to see only a subset of all unlocked items, you can apply filters.
+To see only a subset of all unlocked items, filters can be applied through the icon on the top right of the main screen.
 
 ![image-center](/assets/images/filter_active.jpg){: .align-center width="300px"}
 
 The currently existing filters are:
 
-- Equipment slots - all items that have match a certain equipment slot. Can be combined if you want to match several.
+- Equipment slots - all items that match a certain equipment slot. Can be combined to match several.
 - Use type - either used, spent, or neither. These too can be combined.
 - Ownership - all items that have been purchased by at least one person, all items that have copies left that can be purchased, and all items purchased by a specific character.
 
@@ -104,11 +104,11 @@ Select one or more to retire. The gold values displayed are what would be gained
 
 ### Party management
 
-You can access your parties and campaigns through the option "Parties" in the drawer menu.
+All parties and campaigns can be accessed through the option "Parties" in the drawer menu.
 
 ![image-center](/assets/images/party_selection_party_highlighted.jpg){: .align-center width="300px"}
 
-Here, existing campaigns and parties can be renamed and deleted. Campaigns can only be deleted if there is more than one, and parties only if there is at least one other party in that campaign. Pressing back will return to the main screen of the party marked as "active". To choose another party, simply tap that party and then "Select". Finally, you can export parties (and automatically the campaign they belong to) by tapping "Export" on a party.
+Here, existing campaigns and parties can be renamed and deleted. Campaigns can only be deleted if there is more than one, and parties only if there is at least one other party in that campaign. Pressing back will return to the main screen of the party marked as "active". To choose another party, simply tap that party and then "Select". Finally, parties can be exported (and automatically the campaign they belong to) by tapping "Export" on a party.
 
 
 
@@ -117,7 +117,7 @@ Here, existing campaigns and parties can be renamed and deleted. Campaigns can o
 
 ### Exporting & importing parties
 
-Parties can be exported either from the Party Selection screen, or via the "Export current party" shortcut in the drawer menu on the main screen. The amount of apps available for sharing is limited, but may improve in the future. When importing a party, simply click the file wherever you've shared it, and Gloomhaven Shop should open. Again, the number of applications that know how to handle opening the file is limited, so I may implement a file chooser at some point. As of right now, I've found that Dropbox, Google Drive and GMail work well for exporting and importing. If you get error messages similar to "Couldn't open file", first make sure that the file extension is .ghshop, and then try opening it from another app.
+Parties can be exported either from the Party Selection screen, or via the "Export current party" shortcut in the drawer menu on the main screen. The amount of apps available for sharing is limited, but may improve in the future. When importing a party, simply tap the file wherever you've shared it, and Gloomhaven Shop should open. Again, the number of applications that know how to handle opening the file is limited, so I may implement a file chooser at some point. As of right now, I've found that Dropbox, Google Drive and GMail work well for exporting and importing. If you get error messages similar to "Couldn't open file" wherever you're trying to open the file, first make sure that the file extension is .ghshop. If that does not work, try opening the file from another application.
 
 You can import parties that already exist in your app. If both the party and its campaign already exist, you will be asked to confirm overwriting them. If only the campaign already exists, confirming will import as a new party, but overwrite the campaign. Both of these import types can affect other parties in the same campaign. Be careful not to import an older version of a party and mistakenly decreasing prosperity, for instance - this could cause other parties in the same campaign to lose information about ownership of items locked behind prosperity.
 
