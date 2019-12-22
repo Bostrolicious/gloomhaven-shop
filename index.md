@@ -142,13 +142,5 @@ If for some reason you really need to know the internal ID, the exported .ghshop
 - Improved import/export handling
 - Visually indicate newly added items
 - Live network sync similar to what exists in Gloomhaven Helper (unlikely, but would be cool)
-- Alternate text-based list view of the items. This already exists in other apps though, so might not be worth it.
-- Autoplaying music that can't be paused. I hope you like Kinesiska Muren by Evert Taube
-
-
-
-
-
-
 
 
