@@ -28,6 +28,7 @@ Gloomhaven Shop is an unofficial Gloomhaven companion app for Android that track
 - Filter items by equipment slot, use type, or owner
 - Quickly retire a character and calculate the profit from selling items
 - Export parties to share with your group
+- Support for the Forgotten Circles expansion
 
 
 
@@ -117,7 +118,9 @@ Here, existing campaigns and parties can be renamed and deleted. Campaigns can o
 
 ### Exporting & importing parties
 
-Parties can be exported either from the Party Selection screen, or via the "Export current party" shortcut in the drawer menu on the main screen. The amount of apps available for sharing is limited, but may improve in the future. When importing a party, simply tap the file wherever you've shared it, and Gloomhaven Shop should open. Again, the number of applications that know how to handle opening the file is limited, so I may implement a file chooser at some point. As of right now, I've found that Dropbox, Google Drive and GMail work well for exporting and importing. If you get error messages similar to "Couldn't open file" wherever you're trying to open the file, first make sure that the file extension is .ghshop. If that does not work, try opening the file from another application.
+Parties can be exported either from the Party Selection screen, or via the "Export current party" shortcut in the drawer menu on the main screen. The amount of apps available for sharing is limited, but may improve in the future. When importing a party, simply tap the file wherever you've shared it, and Gloomhaven Shop should open. Again, the number of applications that know how to handle opening the file is limited. As of right now, I've found that Dropbox, Google Drive and GMail work well for exporting and importing. If you get error messages similar to "Couldn't open file" wherever you're trying to open the file, first make sure that the file extension is .ghshop. If that does not work, try opening the file from another application.
+
+My recommendation for using Gloomhaven Shop with others in the same party is to only input changes on one device for a given session, and then exporting the party to a shared Google Drive folder afterwards so that everyone can import the changes.
 
 You can import parties that already exist in your app. If both the party and its campaign already exist, you will be asked to confirm overwriting them. If only the campaign already exists, confirming will import as a new party, but overwrite the campaign. Both of these import types can affect other parties in the same campaign. Be careful not to import an older version of a party and mistakenly decreasing prosperity, for instance - this could cause other parties in the same campaign to lose information about ownership of items locked behind prosperity.
 
@@ -138,9 +141,9 @@ If for some reason you really need to know the internal ID, the exported .ghshop
 
 ## Wishlist of future features
  
-- Support for Forgotten Circles. I definitely plan on doing this, as soon as I get around to scanning the cards.
-- Improved import/export handling
+- A file chooser, in order to be able to select a file to import from internal storage from within the app
 - Visually indicate newly added items
 - Live network sync similar to what exists in Gloomhaven Helper (unlikely, but would be cool)
+- More filters - item cost?
 
 
