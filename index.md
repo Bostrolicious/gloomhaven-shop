@@ -34,7 +34,7 @@ Gloomhaven Shop is an unofficial Gloomhaven companion app for Android that track
 
 ### Download
 
-Gloomhaven Shop is available on Google Play.
+Gloomhaven Shop is available on [Google Play](https://play.google.com/store/apps/details?id=com.bostrolicious.gloomhavenshop&hl=en).
 
 
 
